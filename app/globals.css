@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif), serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-2xl: 1rem;
+}
+
+:root {
+  /* Medical Grade Palette */
+  --background: #FFFFFF;
+  --foreground: #071F18;
+  
+  --primary: #0C6A54;
+  --primary-foreground: #FFFFFF;
+  
+  --secondary: #E8F4F0;
+  --secondary-foreground: #0C6A54;
+  
+  --muted: #E8F4F0;
+  --muted-foreground: #6B7280;
+  
+  --accent: #2ECC9A;
+  --accent-foreground: #071F18;
+  
+  --destructive: #d92d20;
+  --destructive-foreground: #ffffff;
+  
+  --border: #eaecf0;
+  --input: #eaecf0;
+  --ring: #0C6A54;
+  --radius: 0.5rem;
+}
+
+.medical-grid {
+  background-size: 30px 30px;
+  background-image: 
+    radial-gradient(circle, rgba(255,255,255,0.05) 1px, transparent 1px);
+}
+
+.medical-grid-dark {
+  background-size: 30px 30px;
+  background-image: 
+    radial-gradient(circle, rgba(12,106,84,0.05) 1px, transparent 1px);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
