@@ -14,7 +14,7 @@ export default function RegisterPage() {
           </div>
           <CardTitle className="text-3xl font-black tracking-tight italic uppercase text-[#071F18]">Create Account</CardTitle>
           <CardDescription className="text-center font-medium">
-            Join the MediVfy institutional network for secure health coordination.
+            Join the MedVfy institutional network for secure health coordination.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">

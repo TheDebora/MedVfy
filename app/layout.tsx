@@ -16,7 +16,7 @@ const ibmPlex = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "MediVfy | Secure Medical Verification",
+  title: "MedVfy | Secure Medical Verification",
   description: "Institutional-grade medical verification and health information platform.",
 };
 

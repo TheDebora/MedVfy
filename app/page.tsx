@@ -60,7 +60,7 @@ export default function LandingPage() {
               <Shield className="h-5 w-5 fill-primary" />
             </div>
             <span className="ml-3 text-xl font-serif font-bold tracking-tight text-white italic">
-              MediVfy
+              MedVfy
             </span>
           </Link>
 
@@ -413,7 +413,7 @@ export default function LandingPage() {
                 <div className="h-10 w-10 rounded-lg bg-white flex items-center justify-center text-[#071F18]">
                   <Shield size={20} fill="currentColor" />
                 </div>
-                <span className="ml-4 text-2xl font-serif italic font-bold text-white">MediVfy</span>
+                <span className="ml-4 text-2xl font-serif italic font-bold text-white">MedVfy</span>
               </Link>
               <p className="text-xs text-white/40 leading-relaxed font-medium uppercase tracking-widest">
                 Clinical-grade medical verification <br /> infrastructure nodes. v4.2.0
@@ -436,7 +436,7 @@ export default function LandingPage() {
           </div>
           <div className="mt-32 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
              <div className="flex flex-col gap-2">
-                <p className="text-[10px] font-black uppercase tracking-widest text-white/40">© 2026 MediVfy Institutional Protocols. Distributed by Antigravity AI.</p>
+                <p className="text-[10px] font-black uppercase tracking-widest text-white/40">© 2026 MedVfy Institutional Protocols. Distributed by Antigravity AI.</p>
                 <p className="text-[9px] text-white/20 uppercase tracking-[0.2em] max-w-md leading-relaxed">This platform is intended for institutional health coordination and is HIPAA/ISO compliant. Unauthorised access is strictly prohibited by Article 42.1 of the Health Security Act.</p>
              </div>
              <div className="flex gap-10 text-[10px] font-black uppercase tracking-widest text-white/60">
